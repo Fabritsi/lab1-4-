@@ -1,0 +1,30 @@
+using System;
+
+namespace Task2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("a=");
+            double a = Convert.ToDouble(Console.ReadLine());
+            if (a>3 && a<7)
+            {
+                Console.Write("а належить першому відрізку");
+            }
+            else if (a >= 8 && a < 9)
+            {
+                Console.Write("а належить другому відрізку");
+            }
+            else if (a > 11 && a < 22.4)
+            {
+                Console.Write("а належить третьому відрізку");
+            }
+            else
+            {
+                Console.Write("а не належить ніодному з відрізків");
+            }
+
+        }
+    }
+}
