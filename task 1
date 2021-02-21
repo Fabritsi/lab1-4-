@@ -1,0 +1,20 @@
+using System;
+
+namespace Лабка_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("a=");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("h=");
+            double h = Convert.ToDouble(Console.ReadLine());
+            double s = Convert.ToDouble((a * h)/2);
+            Console.WriteLine("s={0}", s);
+
+        }
+
+    }
+    
+}
