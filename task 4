@@ -1,0 +1,28 @@
+using System;
+
+namespace Task2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("x=");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            if (Math.Pow(x, 2) + Math.Log(x) > 0)
+            {
+                Console.Write("y = cos(x**2+ln(x))");
+            }
+            else if (Math.Pow(x, 2) + Math.Log(x) < 0)
+            {
+                Console.Write("y = 1/(x**2+ln(x))");
+            }
+            else
+            {
+                Console.Write("cos(x)");
+            }
+        }
+
+     }
+           
+}
